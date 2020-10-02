@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"E:\Projects\ISE\ArchitectureLab\BCDto7Seg.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">seg</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"E:\Projects\ISE\ArchitectureLab\SevenSegDriver.v" Line 70: Redeclaration of ansi port <arg fmt="%s" index="1">o_Latch</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"E:\Projects\ISE\ArchitectureLab\LED_Driver.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">o_latch</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">o_data</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">o_DipLatch</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">FiveButtons</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 150: Assignment to <arg fmt="%s" index="1">LEDInput16</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" Line 129: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" Line 130: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" Line 131: Assignment to <arg fmt="%s" index="1">locked_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 166: Assignment to <arg fmt="%s" index="1">clk20M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 167: Assignment to <arg fmt="%s" index="1">clk50M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 168: Assignment to <arg fmt="%s" index="1">clk100M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" Line 46: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" Line 44: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" Line 42: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"E:\Projects\ISE\ArchitectureLab\ipcore_dir\InstructionMemory.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">InstructionMemory</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 215: Assignment to <arg fmt="%s" index="1">DecodeSaidJump</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 57: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 58: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 59: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 60: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 69: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 70: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 71: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 72: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 80: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 82: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 91: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 92: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 93: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 94: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 95: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 103: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 105: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 114: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 116: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 125: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 126: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 127: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 128: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 134: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 135: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 136: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 137: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 138: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 146: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 147: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 148: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 149: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 155: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 156: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 157: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 159: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 161: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 162: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 168: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 169: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 170: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 172: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 174: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 175: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 181: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 182: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 183: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 185: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 187: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 188: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 194: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 195: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 196: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 198: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 200: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 201: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 208: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 209: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 210: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 212: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 214: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 215: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 222: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 223: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 224: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 226: Signal &lt;<arg fmt="%s" index="1">immediate</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 228: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 229: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 238: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 239: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 240: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 241: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 241: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 249: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 250: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 251: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 252: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 252: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 263: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 264: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 265: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 266: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 276: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 277: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 278: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 279: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 285: Signal &lt;<arg fmt="%s" index="1">dip_to_exe</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 286: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 287: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 288: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 289: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 296: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 297: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 298: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 299: Signal &lt;<arg fmt="%s" index="1">TempResult</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 305: Signal &lt;<arg fmt="%s" index="1">jump_address</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 306: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 307: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 308: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 309: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 318: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 322: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 323: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 324: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 325: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 333: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 338: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 339: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 340: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 341: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 349: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 352: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 356: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 357: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 358: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 359: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 368: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 372: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 373: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 374: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 375: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 383: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 385: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 390: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 391: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 392: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 393: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 401: Signal &lt;<arg fmt="%s" index="1">Sin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 402: Signal &lt;<arg fmt="%s" index="1">Cin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 403: Signal &lt;<arg fmt="%s" index="1">Zin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"E:\Projects\ISE\ArchitectureLab\Execution.v" Line 404: Signal &lt;<arg fmt="%s" index="1">Oin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_Eth_INT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_SW1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_SW2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_SW3</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_SW4</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_RXD1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_RXD2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_MMC_DO</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_SYS_RESET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Projects\ISE\ArchitectureLab\TopModule.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">CLK20M</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CLKGenerator</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Projects\ISE\ArchitectureLab\TopModule.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">CLK50M</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CLKGenerator</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Projects\ISE\ArchitectureLab\TopModule.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">CLK100M</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CLKGenerator</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Projects\ISE\ArchitectureLab\TopModule.v</arg>&quot; line <arg fmt="%s" index="2">208</arg>: Output port &lt;<arg fmt="%s" index="3">JMP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DecoderUUT</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AluOperation&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AluOperation&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AluOperation&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AluOperation&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JmpAddress&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Show</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">WR</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JMP</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ShowRR</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">FlagWR</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AddrWR&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AddrWR&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AddrWR&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr1&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr1&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr1&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr2&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr2&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Addr2&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">immediate&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">immediate&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">immediate&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AluOperation&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">S</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">C</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Z</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">O</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ConditionalJump</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">result2_temp&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">TempResult&lt;8&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">o_data_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">FiveButtons_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">FiveButtons_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">FiveButtons_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">FiveButtons_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">FiveButtons_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">FiveButtons_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Dip_Driver</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_seg</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0213</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0212</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_RegBank1</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_RegBank</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">CLKGenerator/pll_base_inst</arg> in unit <arg fmt="%s" index="2">CLKGenerator/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/FiveButtons_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/FiveButtons_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/FiveButtons_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/FiveButtons_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/FiveButtons_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/FiveButtons_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Dip_Driver/o_data_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DecoderUUT/JMP</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModule</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">LED_Driver/counter_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;LED_Driver/counter_30&gt; &lt;LED_Driver/counter_29&gt; &lt;LED_Driver/counter_28&gt; &lt;LED_Driver/counter_27&gt; &lt;LED_Driver/counter_26&gt; &lt;LED_Driver/counter_25&gt; &lt;LED_Driver/counter_24&gt; &lt;LED_Driver/counter_23&gt; &lt;LED_Driver/counter_22&gt; &lt;LED_Driver/counter_21&gt; &lt;LED_Driver/counter_20&gt; &lt;LED_Driver/counter_19&gt; &lt;LED_Driver/counter_18&gt; &lt;LED_Driver/counter_17&gt; &lt;LED_Driver/counter_16&gt; &lt;LED_Driver/counter_15&gt; &lt;LED_Driver/counter_14&gt; &lt;LED_Driver/counter_13&gt; &lt;LED_Driver/counter_12&gt; &lt;LED_Driver/counter_11&gt; &lt;LED_Driver/counter_10&gt; &lt;LED_Driver/counter_9&gt; &lt;LED_Driver/counter_8&gt; &lt;LED_Driver/counter_7&gt; &lt;LED_Driver/counter_6&gt; &lt;LED_Driver/counter_5&gt; &lt;LED_Driver/counter_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DebouncerUUT2/countZero_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DebouncerUUT2/countZero_20&gt; &lt;DebouncerUUT2/countZero_23&gt; &lt;DebouncerUUT2/countZero_21&gt; &lt;DebouncerUUT2/countZero_22&gt; &lt;DebouncerUUT2/countZero_24&gt; &lt;DebouncerUUT2/countZero_25&gt; &lt;DebouncerUUT2/countZero_28&gt; &lt;DebouncerUUT2/countZero_26&gt; &lt;DebouncerUUT2/countZero_27&gt; &lt;DebouncerUUT2/countZero_29&gt; &lt;DebouncerUUT2/countZero_30&gt; &lt;DebouncerUUT2/countZero_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">SevengSegUUT/loopNum_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">25 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SevengSegUUT/loopNum_30&gt; &lt;SevengSegUUT/loopNum_29&gt; &lt;SevengSegUUT/loopNum_28&gt; &lt;SevengSegUUT/loopNum_27&gt; &lt;SevengSegUUT/loopNum_26&gt; &lt;SevengSegUUT/loopNum_25&gt; &lt;SevengSegUUT/loopNum_24&gt; &lt;SevengSegUUT/loopNum_23&gt; &lt;SevengSegUUT/loopNum_22&gt; &lt;SevengSegUUT/loopNum_21&gt; &lt;SevengSegUUT/loopNum_20&gt; &lt;SevengSegUUT/loopNum_19&gt; &lt;SevengSegUUT/loopNum_18&gt; &lt;SevengSegUUT/loopNum_17&gt; &lt;SevengSegUUT/loopNum_16&gt; &lt;SevengSegUUT/loopNum_15&gt; &lt;SevengSegUUT/loopNum_14&gt; &lt;SevengSegUUT/loopNum_13&gt; &lt;SevengSegUUT/loopNum_12&gt; &lt;SevengSegUUT/loopNum_11&gt; &lt;SevengSegUUT/loopNum_10&gt; &lt;SevengSegUUT/loopNum_9&gt; &lt;SevengSegUUT/loopNum_8&gt; &lt;SevengSegUUT/loopNum_7&gt; &lt;SevengSegUUT/loopNum_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DebouncerUUT/countZero_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DebouncerUUT/countZero_19&gt; &lt;DebouncerUUT/countZero_21&gt; &lt;DebouncerUUT/countZero_22&gt; &lt;DebouncerUUT/countZero_23&gt; &lt;DebouncerUUT/countZero_24&gt; &lt;DebouncerUUT/countZero_25&gt; &lt;DebouncerUUT/countZero_26&gt; &lt;DebouncerUUT/countZero_29&gt; &lt;DebouncerUUT/countZero_27&gt; &lt;DebouncerUUT/countZero_28&gt; &lt;DebouncerUUT/countZero_30&gt; &lt;DebouncerUUT/countZero_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DebouncerUUT/countOne_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DebouncerUUT/countOne_19&gt; &lt;DebouncerUUT/countOne_21&gt; &lt;DebouncerUUT/countOne_22&gt; &lt;DebouncerUUT/countOne_25&gt; &lt;DebouncerUUT/countOne_23&gt; &lt;DebouncerUUT/countOne_24&gt; &lt;DebouncerUUT/countOne_26&gt; &lt;DebouncerUUT/countOne_27&gt; &lt;DebouncerUUT/countOne_28&gt; &lt;DebouncerUUT/countOne_29&gt; &lt;DebouncerUUT/countOne_30&gt; &lt;DebouncerUUT/countOne_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DebouncerUUT2/countOne_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DebouncerUUT2/countOne_20&gt; &lt;DebouncerUUT2/countOne_23&gt; &lt;DebouncerUUT2/countOne_21&gt; &lt;DebouncerUUT2/countOne_22&gt; &lt;DebouncerUUT2/countOne_24&gt; &lt;DebouncerUUT2/countOne_25&gt; &lt;DebouncerUUT2/countOne_28&gt; &lt;DebouncerUUT2/countOne_26&gt; &lt;DebouncerUUT2/countOne_27&gt; &lt;DebouncerUUT2/countOne_29&gt; &lt;DebouncerUUT2/countOne_30&gt; &lt;DebouncerUUT2/countOne_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,3 @@
+verilog work "BinaryToBCD.v"
+verilog work "BCDto7Seg.v"
+verilog work "SevenSegDriver.v"

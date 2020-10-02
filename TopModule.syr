@@ -1,0 +1,1291 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: TopModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TopModule.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TopModule"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : TopModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" into library work
+Parsing module <ClockGenerator>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" into library work
+Parsing module <BinaryToBCD>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\BCDto7Seg.v" into library work
+Parsing module <BCDto7Seg>.
+WARNING:HDLCompiler:751 - "E:\Projects\ISE\ArchitectureLab\BCDto7Seg.v" Line 26: Redeclaration of ansi port seg is not allowed
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\SevenSegDriver.v" into library work
+Parsing module <SevenSegDriver>.
+WARNING:HDLCompiler:751 - "E:\Projects\ISE\ArchitectureLab\SevenSegDriver.v" Line 70: Redeclaration of ansi port o_Latch is not allowed
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\RegisterBank.v" into library work
+Parsing module <RegisterBank>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\LED_Driver.v" into library work
+Parsing module <LED_Driver>.
+WARNING:HDLCompiler:751 - "E:\Projects\ISE\ArchitectureLab\LED_Driver.v" Line 30: Redeclaration of ansi port o_latch is not allowed
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\ipcore_dir\InstructionMemory.v" into library work
+Parsing module <InstructionMemory>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\Execution.v" into library work
+Parsing module <Execution>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" into library work
+Parsing module <DipSwitch_Driver>.
+WARNING:HDLCompiler:751 - "E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" Line 31: Redeclaration of ansi port o_data is not allowed
+WARNING:HDLCompiler:751 - "E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" Line 32: Redeclaration of ansi port o_DipLatch is not allowed
+WARNING:HDLCompiler:751 - "E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v" Line 35: Redeclaration of ansi port FiveButtons is not allowed
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\Decoder.v" into library work
+Parsing module <Decoder>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\Debouncer.v" into library work
+Parsing module <Debouncer>.
+Analyzing Verilog file "E:\Projects\ISE\ArchitectureLab\TopModule.v" into library work
+Parsing module <TopModule>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <TopModule>.
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 150: Assignment to LEDInput16 ignored, since the identifier is never used
+
+Elaborating module <ClockGenerator>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=8,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=80,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=20,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=8,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKOUT3_DIVIDE=4,CLKOUT3_PHASE=0.0,CLKOUT3_DUTY_CYCLE=0.5,CLKIN_PERIOD=20.0,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" Line 129: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" Line 130: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v" Line 131: Assignment to locked_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 166: Assignment to clk20M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 167: Assignment to clk50M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 168: Assignment to clk100M ignored, since the identifier is never used
+
+Elaborating module <LED_Driver>.
+
+Elaborating module <DipSwitch_Driver>.
+
+Elaborating module <SevenSegDriver>.
+
+Elaborating module <BinaryToBCD>.
+WARNING:HDLCompiler:413 - "E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" Line 46: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" Line 44: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v" Line 42: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <BCDto7Seg>.
+
+Elaborating module <Debouncer>.
+
+Elaborating module <InstructionMemory>.
+WARNING:HDLCompiler:1499 - "E:\Projects\ISE\ArchitectureLab\ipcore_dir\InstructionMemory.v" Line 39: Empty module <InstructionMemory> remains a black box.
+
+Elaborating module <Decoder>.
+WARNING:HDLCompiler:1127 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" Line 215: Assignment to DecodeSaidJump ignored, since the identifier is never used
+
+Elaborating module <RegisterBank>.
+
+Elaborating module <Execution>.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 57: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 58: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 59: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 60: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 69: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 70: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 71: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 72: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 80: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 82: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 91: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 92: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 93: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 94: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 95: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 103: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 105: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 114: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 116: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 125: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 126: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 127: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 128: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 134: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 135: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 136: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 137: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 138: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 146: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 147: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 148: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 149: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 155: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 156: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 157: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 159: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 161: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 162: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 168: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 169: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 170: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 172: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 174: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 175: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 181: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 182: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 183: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 185: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 187: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 188: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 194: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 195: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 196: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 198: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 200: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 201: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 208: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 209: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 210: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 212: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 214: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 215: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 222: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 223: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 224: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 226: Signal <immediate> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 228: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 229: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 238: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 239: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 240: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 241: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 241: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 249: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 250: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 251: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 252: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 252: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 263: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 264: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 265: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 266: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 276: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 277: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 278: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 279: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 285: Signal <dip_to_exe> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 286: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 287: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 288: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 289: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 296: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 297: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 298: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 299: Signal <TempResult> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 305: Signal <jump_address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 306: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 307: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 308: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 309: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 318: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 322: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 323: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 324: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 325: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 333: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 338: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 339: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 340: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 341: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 349: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 352: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 356: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 357: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 358: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 359: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 368: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 372: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 373: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 374: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 375: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 383: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 385: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 390: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 391: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 392: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 393: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 401: Signal <Sin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 402: Signal <Cin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 403: Signal <Zin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\Projects\ISE\ArchitectureLab\Execution.v" Line 404: Signal <Oin> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <TopModule>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\TopModule.v".
+WARNING:Xst:647 - Input <i_Eth_INT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_SW1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_SW2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_SW3> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_SW4> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_RXD1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_RXD2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_MMC_DO> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_SYS_RESET> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" line 161: Output port <CLK20M> of the instance <CLKGenerator> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" line 161: Output port <CLK50M> of the instance <CLKGenerator> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" line 161: Output port <CLK100M> of the instance <CLKGenerator> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\Projects\ISE\ArchitectureLab\TopModule.v" line 208: Output port <JMP> of the instance <DecoderUUT> is unconnected or connected to loadless signal.
+Always blocking tristate driving signal <io_USB_IFCLK> is removed.
+Always blocking tristate driving signal <io_Data<7>> is removed.
+Always blocking tristate driving signal <io_Data<6>> is removed.
+Always blocking tristate driving signal <io_Data<5>> is removed.
+Always blocking tristate driving signal <io_Data<4>> is removed.
+Always blocking tristate driving signal <io_Data<3>> is removed.
+Always blocking tristate driving signal <io_Data<2>> is removed.
+Always blocking tristate driving signal <io_Data<1>> is removed.
+Always blocking tristate driving signal <io_Data<0>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<9>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<8>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<7>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<6>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<5>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<4>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<3>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<2>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<1>> is removed.
+Always blocking tristate driving signal <io_MuxEthUSB<0>> is removed.
+    Found 8-bit register for signal <PC>.
+    Found 8-bit adder for signal <PC[7]_GND_1_o_add_4_OUT> created at line 151.
+    Found 1-bit tristate buffer for signal <o_MMC_SCK> created at line 78
+    Found 1-bit tristate buffer for signal <o_MMC_DI> created at line 80
+    Found 1-bit tristate buffer for signal <o_MMC_CS> created at line 81
+    Found 1-bit tristate buffer for signal <o_VGA_blue0> created at line 83
+    Found 1-bit tristate buffer for signal <o_VGA_blue1> created at line 84
+    Found 1-bit tristate buffer for signal <o_VGA_green0> created at line 85
+    Found 1-bit tristate buffer for signal <o_VGA_green1> created at line 86
+    Found 1-bit tristate buffer for signal <o_VGA_red0> created at line 87
+    Found 1-bit tristate buffer for signal <o_VGA_red1> created at line 88
+    Found 1-bit tristate buffer for signal <o_VGA_vsync> created at line 89
+    Found 1-bit tristate buffer for signal <o_VGA_hsync> created at line 90
+    Found 1-bit tristate buffer for signal <o_Eth_RST> created at line 92
+    Found 1-bit tristate buffer for signal <o_Eth_CS> created at line 94
+    Found 1-bit tristate buffer for signal <o_Eth_RD> created at line 95
+    Found 1-bit tristate buffer for signal <o_Eth_WR> created at line 96
+    Found 1-bit tristate buffer for signal <o_USB_SLOE> created at line 97
+    Found 1-bit tristate buffer for signal <o_USB_SLRD> created at line 99
+    Found 1-bit tristate buffer for signal <o_USB_SLWR> created at line 100
+    Found 1-bit tristate buffer for signal <o_TXD1> created at line 104
+    Found 1-bit tristate buffer for signal <o_TXD2> created at line 105
+    Found 1-bit tristate buffer for signal <o_LCDData> created at line 112
+    Found 1-bit tristate buffer for signal <o_LCDLatch> created at line 113
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred  22 Tristate(s).
+Unit <TopModule> synthesized.
+
+Synthesizing Unit <ClockGenerator>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\ipcore_dir\ClockGenerator.v".
+    Summary:
+	no macro.
+Unit <ClockGenerator> synthesized.
+
+Synthesizing Unit <LED_Driver>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\LED_Driver.v".
+    Found 1-bit register for signal <shiftReg<0>>.
+    Found 1-bit register for signal <shiftReg<1>>.
+    Found 1-bit register for signal <shiftReg<2>>.
+    Found 1-bit register for signal <shiftReg<3>>.
+    Found 1-bit register for signal <shiftReg<4>>.
+    Found 1-bit register for signal <shiftReg<5>>.
+    Found 1-bit register for signal <shiftReg<6>>.
+    Found 1-bit register for signal <shiftReg<7>>.
+    Found 1-bit register for signal <shiftReg<8>>.
+    Found 1-bit register for signal <shiftReg<9>>.
+    Found 1-bit register for signal <shiftReg<10>>.
+    Found 1-bit register for signal <shiftReg<11>>.
+    Found 1-bit register for signal <shiftReg<12>>.
+    Found 1-bit register for signal <shiftReg<13>>.
+    Found 1-bit register for signal <shiftReg<14>>.
+    Found 1-bit register for signal <shiftReg<15>>.
+    Found 32-bit register for signal <counter>.
+    Found 1-bit register for signal <o_data>.
+    Found 1-bit register for signal <o_latch>.
+    Found 32-bit adder for signal <counter[31]_GND_49_o_add_2_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred  15 Multiplexer(s).
+Unit <LED_Driver> synthesized.
+
+Synthesizing Unit <DipSwitch_Driver>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\DipSwitch_Driver.v".
+    Found 32-bit register for signal <counter>.
+    Found 16-bit register for signal <o_data>.
+    Found 8-bit register for signal <FiveButtons>.
+    Found 23-bit register for signal <o_data_reg>.
+    Found 1-bit register for signal <o_DipLatch>.
+    Found 32-bit adder for signal <counter[31]_GND_50_o_add_2_OUT> created at line 108.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  80 D-type flip-flop(s).
+Unit <DipSwitch_Driver> synthesized.
+
+Synthesizing Unit <SevenSegDriver>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\SevenSegDriver.v".
+    Found 1-bit register for signal <temp>.
+    Found 32-bit register for signal <loopNum>.
+    Found 1-bit register for signal <o_Data>.
+    Found 1-bit register for signal <o_Latch>.
+    Found 1-bit register for signal <temp_latch>.
+    Found 32-bit adder for signal <loopNum[31]_GND_51_o_add_29_OUT> created at line 153.
+    Found 1-bit 48-to-1 multiplexer for signal <loopNum[5]_storeReg[63]_Mux_31_o> created at line 158.
+    Found 32-bit comparator lessequal for signal <n0004> created at line 113
+    Found 32-bit comparator greater for signal <GND_51_o_loopNum[31]_LessThan_7_o> created at line 113
+    Found 32-bit comparator lessequal for signal <n0008> created at line 119
+    Found 32-bit comparator greater for signal <GND_51_o_loopNum[31]_LessThan_11_o> created at line 119
+    Found 32-bit comparator lessequal for signal <n0012> created at line 125
+    Found 32-bit comparator greater for signal <GND_51_o_loopNum[31]_LessThan_15_o> created at line 125
+    Found 32-bit comparator lessequal for signal <n0016> created at line 131
+    Found 32-bit comparator greater for signal <GND_51_o_loopNum[31]_LessThan_19_o> created at line 131
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <SevenSegDriver> synthesized.
+
+Synthesizing Unit <BinaryToBCD>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\BinaryToBCD.v".
+    Found 4-bit adder for signal <n0135> created at line 46.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_4_OUT> created at line 46.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_7_OUT> created at line 46.
+    Found 4-bit adder for signal <n0145> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_13_OUT> created at line 46.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_16_OUT> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_19_OUT> created at line 46.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_22_OUT> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_25_OUT> created at line 46.
+    Found 4-bit adder for signal <n0164> created at line 42.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_31_OUT> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_34_OUT> created at line 46.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_37_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_40_OUT> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_43_OUT> created at line 46.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_46_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_49_OUT> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_52_OUT> created at line 46.
+    Found 4-bit adder for signal <n0192> created at line 40.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_58_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_61_OUT> created at line 44.
+    Found 4-bit adder for signal <GND_52_o_GND_52_o_add_64_OUT> created at line 46.
+    Found 3-bit comparator lessequal for signal <n0000> created at line 45
+    Found 4-bit comparator lessequal for signal <n0004> created at line 45
+    Found 4-bit comparator lessequal for signal <n0008> created at line 45
+    Found 3-bit comparator lessequal for signal <n0012> created at line 43
+    Found 4-bit comparator lessequal for signal <n0016> created at line 45
+    Found 4-bit comparator lessequal for signal <n0020> created at line 43
+    Found 4-bit comparator lessequal for signal <n0024> created at line 45
+    Found 4-bit comparator lessequal for signal <n0028> created at line 43
+    Found 4-bit comparator lessequal for signal <n0032> created at line 45
+    Found 3-bit comparator lessequal for signal <n0036> created at line 41
+    Found 4-bit comparator lessequal for signal <n0040> created at line 43
+    Found 4-bit comparator lessequal for signal <n0044> created at line 45
+    Found 4-bit comparator lessequal for signal <n0048> created at line 41
+    Found 4-bit comparator lessequal for signal <n0052> created at line 43
+    Found 4-bit comparator lessequal for signal <n0056> created at line 45
+    Found 4-bit comparator lessequal for signal <n0060> created at line 41
+    Found 4-bit comparator lessequal for signal <n0064> created at line 43
+    Found 4-bit comparator lessequal for signal <n0068> created at line 45
+    Found 3-bit comparator lessequal for signal <n0072> created at line 39
+    Found 4-bit comparator lessequal for signal <n0076> created at line 41
+    Found 4-bit comparator lessequal for signal <n0080> created at line 43
+    Found 4-bit comparator lessequal for signal <n0084> created at line 45
+    Summary:
+	inferred  22 Adder/Subtractor(s).
+	inferred  22 Comparator(s).
+	inferred  22 Multiplexer(s).
+Unit <BinaryToBCD> synthesized.
+
+Synthesizing Unit <BCDto7Seg>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\BCDto7Seg.v".
+    Found 16x8-bit Read Only RAM for signal <seg>
+    Summary:
+	inferred   1 RAM(s).
+Unit <BCDto7Seg> synthesized.
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\Debouncer.v".
+    Found 32-bit register for signal <countOne>.
+    Found 1-bit register for signal <outTemp>.
+    Found 32-bit register for signal <countZero>.
+    Found 32-bit adder for signal <countZero[31]_GND_54_o_add_3_OUT> created at line 46.
+    Found 32-bit adder for signal <countOne[31]_GND_54_o_add_6_OUT> created at line 62.
+    Found 32-bit comparator greater for signal <countZero[31]_GND_54_o_LessThan_3_o> created at line 38
+    Found 32-bit comparator greater for signal <countOne[31]_GND_54_o_LessThan_6_o> created at line 54
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  65 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <Debouncer> synthesized.
+
+Synthesizing Unit <Decoder>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\Decoder.v".
+    Found 32x5-bit Read Only RAM for signal <_n0213>
+WARNING:Xst:737 - Found 1-bit latch for signal <AluOperation<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AluOperation<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AluOperation<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AluOperation<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JmpAddress<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Show>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <WR>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JMP>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ShowRR>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <FlagWR>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AddrWR<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AddrWR<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AddrWR<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Addr1<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Addr1<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Addr1<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Addr2<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Addr2<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Addr2<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <immediate<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <immediate<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <immediate<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <AluOperation<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  30 Latch(s).
+	inferred  17 Multiplexer(s).
+Unit <Decoder> synthesized.
+
+Synthesizing Unit <RegisterBank>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\RegisterBank.v".
+    Found 8-bit register for signal <Out2>.
+    Found 1-bit register for signal <OF>.
+    Found 1-bit register for signal <CF>.
+    Found 1-bit register for signal <ZF>.
+    Found 1-bit register for signal <SF>.
+    Found 1-bit register for signal <O>.
+    Found 1-bit register for signal <C>.
+    Found 1-bit register for signal <S>.
+    Found 1-bit register for signal <Z>.
+    Found 8-bit register for signal <Out1>.
+    Found 8x8-bit dual-port RAM <Mram_RegBank> for signal <RegBank>.
+    Summary:
+	inferred   2 RAM(s).
+	inferred  24 D-type flip-flop(s).
+Unit <RegisterBank> synthesized.
+
+Synthesizing Unit <Execution>.
+    Related source file is "E:\Projects\ISE\ArchitectureLab\Execution.v".
+    Found 9-bit subtractor for signal <GND_88_o_GND_88_o_sub_62_OUT> created at line 295.
+    Found 9-bit adder for signal <n0150> created at line 68.
+    Found 32-bit adder for signal <n0159> created at line 91.
+    Found 32-bit adder for signal <n0092> created at line 91.
+    Found 9-bit adder for signal <n0148> created at line 134.
+    Found 9-bit adder for signal <n0147> created at line 237.
+    Found 9-bit adder for signal <n0146> created at line 248.
+    Found 3-bit subtractor for signal <GND_88_o_GND_88_o_sub_49_OUT<2:0>> created at line 226.
+    Found 3-bit subtractor for signal <GND_88_o_GND_88_o_sub_41_OUT<2:0>> created at line 212.
+    Found 9-bit shifter logical left for signal <GND_88_o_immediate[2]_shift_left_35_OUT> created at line 208
+    Found 9-bit shifter logical right for signal <GND_88_o_immediate[2]_shift_right_37_OUT> created at line 208
+    Found 9-bit shifter logical right for signal <GND_88_o_immediate[2]_shift_right_43_OUT> created at line 222
+    Found 9-bit shifter logical left for signal <GND_88_o_immediate[2]_shift_left_45_OUT> created at line 222
+    Found 32x3-bit Read Only RAM for signal <_n0212>
+    Found 1-bit 8-to-1 multiplexer for signal <GND_88_o_Datain1[7]_Mux_41_o> created at line 212.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_88_o_Datain1[7]_Mux_49_o> created at line 226.
+    Found 9-bit 19-to-1 multiplexer for signal <AluOperation[4]_TempResult[8]_wide_mux_70_OUT> created at line 52.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <S>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <C>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Z>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <O>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ConditionalJump>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <result2_temp<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <TempResult<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit comparator equal for signal <n0039> created at line 368
+    Summary:
+	inferred   1 RAM(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred  22 Latch(s).
+	inferred   1 Comparator(s).
+	inferred  84 Multiplexer(s).
+	inferred   4 Combinational logic shifter(s).
+Unit <Execution> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 8
+ 16x8-bit single-port Read Only RAM                    : 4
+ 32x3-bit single-port Read Only RAM                    : 1
+ 32x5-bit single-port Read Only RAM                    : 1
+ 8x8-bit dual-port RAM                                 : 2
+# Adders/Subtractors                                   : 35
+ 3-bit subtractor                                      : 2
+ 32-bit adder                                          : 9
+ 4-bit adder                                           : 22
+ 8-bit adder                                           : 1
+ 9-bit addsub                                          : 1
+# Registers                                            : 46
+ 1-bit register                                        : 33
+ 16-bit register                                       : 1
+ 23-bit register                                       : 1
+ 32-bit register                                       : 7
+ 8-bit register                                        : 4
+# Latches                                              : 52
+ 1-bit latch                                           : 52
+# Comparators                                          : 35
+ 1-bit comparator equal                                : 1
+ 3-bit comparator lessequal                            : 4
+ 32-bit comparator greater                             : 8
+ 32-bit comparator lessequal                           : 4
+ 4-bit comparator lessequal                            : 18
+# Multiplexers                                         : 145
+ 1-bit 2-to-1 multiplexer                              : 86
+ 1-bit 48-to-1 multiplexer                             : 1
+ 1-bit 8-to-1 multiplexer                              : 2
+ 16-bit 2-to-1 multiplexer                             : 2
+ 4-bit 2-to-1 multiplexer                              : 22
+ 8-bit 2-to-1 multiplexer                              : 2
+ 9-bit 2-to-1 multiplexer                              : 30
+# Logic shifters                                       : 4
+ 9-bit shifter logical left                            : 2
+ 9-bit shifter logical right                           : 2
+# Tristates                                            : 22
+ 1-bit tristate buffer                                 : 22
+# Xors                                                 : 6
+ 1-bit xor2                                            : 1
+ 1-bit xor4                                            : 1
+ 32-bit xor2                                           : 2
+ 32-bit xor3                                           : 1
+ 9-bit xor2                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/InstructionMemory.ngc>.
+Loading core <InstructionMemory> for timing and area information for instance <IMUUT>.
+WARNING:Xst:2677 - Node <o_data_reg_15> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_16> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_17> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_18> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_19> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_20> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_21> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_reg_22> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_8> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_9> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_10> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_11> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_12> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_13> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_14> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <o_data_15> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <FiveButtons_0> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <FiveButtons_1> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <FiveButtons_2> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <FiveButtons_3> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <FiveButtons_4> of sequential type is unconnected in block <Dip_Driver>.
+WARNING:Xst:2677 - Node <FiveButtons_5> of sequential type is unconnected in block <Dip_Driver>.
+
+Synthesizing (advanced) Unit <BCDto7Seg>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_seg> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <bcd>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <seg>           |          |
+    -----------------------------------------------------------------------
+Unit <BCDto7Seg> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Debouncer>.
+The following registers are absorbed into counter <countOne>: 1 register on signal <countOne>.
+The following registers are absorbed into counter <countZero>: 1 register on signal <countZero>.
+Unit <Debouncer> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Decoder>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0213> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 5-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <IR<10:6>>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Decoder> synthesized (advanced).
+
+Synthesizing (advanced) Unit <DipSwitch_Driver>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <DipSwitch_Driver> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Execution>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0212> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 3-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <AluOperation>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Execution> synthesized (advanced).
+
+Synthesizing (advanced) Unit <LED_Driver>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <LED_Driver> synthesized (advanced).
+
+Synthesizing (advanced) Unit <RegisterBank>.
+INFO:Xst:3231 - The small RAM <Mram_RegBank1> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     clkA           | connected to signal <CLK>           | fall     |
+    |     weA            | connected to signal <WR>            | high     |
+    |     addrA          | connected to signal <AddrWR>        |          |
+    |     diA            | connected to signal <Datain>        |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     addrB          | connected to signal <Addr2>         |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3231 - The small RAM <Mram_RegBank> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     clkA           | connected to signal <CLK>           | fall     |
+    |     weA            | connected to signal <WR>            | high     |
+    |     addrA          | connected to signal <AddrWR>        |          |
+    |     diA            | connected to signal <Datain>        |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     addrB          | connected to signal <Addr1>         |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <RegisterBank> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SevenSegDriver>.
+The following registers are absorbed into counter <loopNum>: 1 register on signal <loopNum>.
+Unit <SevenSegDriver> synthesized (advanced).
+
+Synthesizing (advanced) Unit <TopModule>.
+The following registers are absorbed into counter <PC>: 1 register on signal <PC>.
+Unit <TopModule> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 8
+ 16x8-bit single-port distributed Read Only RAM        : 4
+ 32x3-bit single-port distributed Read Only RAM        : 1
+ 32x5-bit single-port distributed Read Only RAM        : 1
+ 8x8-bit dual-port distributed RAM                     : 2
+# Adders/Subtractors                                   : 26
+ 3-bit subtractor                                      : 2
+ 4-bit adder                                           : 22
+ 9-bit adder carry in                                  : 1
+ 9-bit addsub                                          : 1
+# Counters                                             : 8
+ 32-bit up counter                                     : 7
+ 8-bit up counter                                      : 1
+# Registers                                            : 96
+ Flip-Flops                                            : 96
+# Comparators                                          : 35
+ 1-bit comparator equal                                : 1
+ 3-bit comparator lessequal                            : 4
+ 32-bit comparator greater                             : 8
+ 32-bit comparator lessequal                           : 4
+ 4-bit comparator lessequal                            : 18
+# Multiplexers                                         : 139
+ 1-bit 2-to-1 multiplexer                              : 81
+ 1-bit 48-to-1 multiplexer                             : 1
+ 1-bit 8-to-1 multiplexer                              : 2
+ 16-bit 2-to-1 multiplexer                             : 2
+ 4-bit 2-to-1 multiplexer                              : 22
+ 8-bit 2-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 30
+# Logic shifters                                       : 4
+ 9-bit shifter logical left                            : 2
+ 9-bit shifter logical right                           : 2
+# Xors                                                 : 6
+ 1-bit xor2                                            : 1
+ 1-bit xor4                                            : 1
+ 32-bit xor2                                           : 2
+ 32-bit xor3                                           : 1
+ 9-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance CLKGenerator/pll_base_inst in unit CLKGenerator/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <RegisterBank> ...
+
+Optimizing unit <TopModule> ...
+
+Optimizing unit <DipSwitch_Driver> ...
+
+Optimizing unit <LED_Driver> ...
+
+Optimizing unit <SevenSegDriver> ...
+
+Optimizing unit <BinaryToBCD> ...
+
+Optimizing unit <Decoder> ...
+
+Optimizing unit <Execution> ...
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_15> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_14> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_13> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_12> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_11> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_10> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_9> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_8> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/FiveButtons_5> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/FiveButtons_4> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/FiveButtons_3> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/FiveButtons_2> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/FiveButtons_1> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/FiveButtons_0> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_22> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_21> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_20> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_19> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_18> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_17> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_16> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <Dip_Driver/o_data_reg_15> of sequential type is unconnected in block <TopModule>.
+WARNING:Xst:2677 - Node <DecoderUUT/JMP> of sequential type is unconnected in block <TopModule>.
+INFO:Xst:2261 - The FF/Latch <LED_Driver/counter_31> in Unit <TopModule> is equivalent to the following 27 FFs/Latches, which will be removed : <LED_Driver/counter_30> <LED_Driver/counter_29> <LED_Driver/counter_28> <LED_Driver/counter_27> <LED_Driver/counter_26> <LED_Driver/counter_25> <LED_Driver/counter_24> <LED_Driver/counter_23> <LED_Driver/counter_22> <LED_Driver/counter_21> <LED_Driver/counter_20> <LED_Driver/counter_19> <LED_Driver/counter_18> <LED_Driver/counter_17> <LED_Driver/counter_16> <LED_Driver/counter_15> <LED_Driver/counter_14> <LED_Driver/counter_13> <LED_Driver/counter_12> <LED_Driver/counter_11> <LED_Driver/counter_10> <LED_Driver/counter_9> <LED_Driver/counter_8> <LED_Driver/counter_7> <LED_Driver/counter_6> <LED_Driver/counter_5> <LED_Driver/counter_4> 
+INFO:Xst:2261 - The FF/Latch <DebouncerUUT2/countZero_19> in Unit <TopModule> is equivalent to the following 12 FFs/Latches, which will be removed : <DebouncerUUT2/countZero_20> <DebouncerUUT2/countZero_23> <DebouncerUUT2/countZero_21> <DebouncerUUT2/countZero_22> <DebouncerUUT2/countZero_24> <DebouncerUUT2/countZero_25> <DebouncerUUT2/countZero_28> <DebouncerUUT2/countZero_26> <DebouncerUUT2/countZero_27> <DebouncerUUT2/countZero_29> <DebouncerUUT2/countZero_30> <DebouncerUUT2/countZero_31> 
+INFO:Xst:2261 - The FF/Latch <SevengSegUUT/loopNum_31> in Unit <TopModule> is equivalent to the following 25 FFs/Latches, which will be removed : <SevengSegUUT/loopNum_30> <SevengSegUUT/loopNum_29> <SevengSegUUT/loopNum_28> <SevengSegUUT/loopNum_27> <SevengSegUUT/loopNum_26> <SevengSegUUT/loopNum_25> <SevengSegUUT/loopNum_24> <SevengSegUUT/loopNum_23> <SevengSegUUT/loopNum_22> <SevengSegUUT/loopNum_21> <SevengSegUUT/loopNum_20> <SevengSegUUT/loopNum_19> <SevengSegUUT/loopNum_18> <SevengSegUUT/loopNum_17> <SevengSegUUT/loopNum_16> <SevengSegUUT/loopNum_15> <SevengSegUUT/loopNum_14> <SevengSegUUT/loopNum_13> <SevengSegUUT/loopNum_12> <SevengSegUUT/loopNum_11> <SevengSegUUT/loopNum_10> <SevengSegUUT/loopNum_9> <SevengSegUUT/loopNum_8> <SevengSegUUT/loopNum_7> <SevengSegUUT/loopNum_6> 
+INFO:Xst:2261 - The FF/Latch <DebouncerUUT/countZero_20> in Unit <TopModule> is equivalent to the following 12 FFs/Latches, which will be removed : <DebouncerUUT/countZero_19> <DebouncerUUT/countZero_21> <DebouncerUUT/countZero_22> <DebouncerUUT/countZero_23> <DebouncerUUT/countZero_24> <DebouncerUUT/countZero_25> <DebouncerUUT/countZero_26> <DebouncerUUT/countZero_29> <DebouncerUUT/countZero_27> <DebouncerUUT/countZero_28> <DebouncerUUT/countZero_30> <DebouncerUUT/countZero_31> 
+INFO:Xst:2261 - The FF/Latch <DebouncerUUT/countOne_20> in Unit <TopModule> is equivalent to the following 12 FFs/Latches, which will be removed : <DebouncerUUT/countOne_19> <DebouncerUUT/countOne_21> <DebouncerUUT/countOne_22> <DebouncerUUT/countOne_25> <DebouncerUUT/countOne_23> <DebouncerUUT/countOne_24> <DebouncerUUT/countOne_26> <DebouncerUUT/countOne_27> <DebouncerUUT/countOne_28> <DebouncerUUT/countOne_29> <DebouncerUUT/countOne_30> <DebouncerUUT/countOne_31> 
+INFO:Xst:2261 - The FF/Latch <DebouncerUUT2/countOne_19> in Unit <TopModule> is equivalent to the following 12 FFs/Latches, which will be removed : <DebouncerUUT2/countOne_20> <DebouncerUUT2/countOne_23> <DebouncerUUT2/countOne_21> <DebouncerUUT2/countOne_22> <DebouncerUUT2/countOne_24> <DebouncerUUT2/countOne_25> <DebouncerUUT2/countOne_28> <DebouncerUUT2/countOne_26> <DebouncerUUT2/countOne_27> <DebouncerUUT2/countOne_29> <DebouncerUUT2/countOne_30> <DebouncerUUT2/countOne_31> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TopModule, actual ratio is 12.
+FlipFlop SevengSegUUT/loopNum_31 has been replicated 3 time(s)
+FlipFlop SevengSegUUT/loopNum_4 has been replicated 2 time(s)
+FlipFlop SevengSegUUT/loopNum_5 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <TopModule> :
+	Found 6-bit shift register for signal <Dip_Driver/o_data_reg_5>.
+Unit <TopModule> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 207
+ Flip-Flops                                            : 207
+# Shift Registers                                      : 1
+ 6-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : TopModule.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 979
+#      GND                         : 2
+#      INV                         : 58
+#      LUT1                        : 171
+#      LUT2                        : 40
+#      LUT3                        : 31
+#      LUT4                        : 18
+#      LUT5                        : 79
+#      LUT6                        : 154
+#      MUXCY                       : 268
+#      MUXF7                       : 6
+#      VCC                         : 2
+#      XORCY                       : 150
+# FlipFlops/Latches                : 259
+#      FD                          : 57
+#      FDC                         : 8
+#      FDE                         : 21
+#      FDE_1                       : 4
+#      FDR                         : 117
+#      FDS                         : 1
+#      LD                          : 34
+#      LDE                         : 8
+#      LDE_1                       : 9
+# RAMS                             : 7
+#      RAM16X1D                    : 4
+#      RAM32M                      : 2
+#      RAMB8BWER                   : 1
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+# Clock Buffers                    : 6
+#      BUFG                        : 6
+# IO Buffers                       : 30
+#      IBUF                        : 1
+#      IBUFG                       : 1
+#      OBUF                        : 6
+#      OBUFT                       : 22
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             259  out of  11440     2%  
+ Number of Slice LUTs:                  568  out of   5720     9%  
+    Number used as Logic:               551  out of   5720     9%  
+    Number used as Memory:               17  out of   1440     1%  
+       Number used as RAM:               16
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    611
+   Number with an unused Flip Flop:     352  out of    611    57%  
+   Number with an unused LUT:            43  out of    611     7%  
+   Number of fully used LUT-FF pairs:   216  out of    611    35%  
+   Number of unique control sets:        25
+
+IO Utilization: 
+ Number of IOs:                          58
+ Number of bonded IOBs:                  30  out of    102    29%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                6  out of     16    37%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------------------------------------------------------------+--------------------------------------+-------+
+Clock Signal                                                                                          | Clock buffer(FF name)                | Load  |
+------------------------------------------------------------------------------------------------------+--------------------------------------+-------+
+DebouncerUUT/outTemp                                                                                  | BUFG                                 | 38    |
+CLKGenerator/pll_base_inst/CLKOUT0                                                                    | BUFG                                 | 178   |
+DecoderUUT/IR[14]_IR[14]_MUX_247_o(DecoderUUT/Mmux_IR[14]_IR[14]_MUX_247_o12:O)                       | NONE(*)(DecoderUUT/AddrWR_0)         | 3     |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o(DecoderUUT/IR[14]_IR[14]_MUX_242_o2:O)                             | NONE(*)(DecoderUUT/AluOperation_4)   | 9     |
+IMUUT/douta<15>                                                                                       | NONE(DecoderUUT/immediate_0)         | 17    |
+ExecutionUUT/AluOperation[4]_GND_98_o_Mux_86_o(ExecutionUUT/Mmux_AluOperation[4]_GND_98_o_Mux_86_o1:O)| NONE(*)(ExecutionUUT/O)              | 3     |
+ExecutionUUT/AluOperation[4]_GND_99_o_Mux_87_o(ExecutionUUT/Mmux_AluOperation[4]_GND_99_o_Mux_87_o1:O)| NONE(*)(ExecutionUUT/C)              | 1     |
+ExecutionUUT/Mram__n02122(ExecutionUUT/Mram__n021221:O)                                               | NONE(*)(ExecutionUUT/TempResult_8)   | 9     |
+ExecutionUUT/Mram__n02121(ExecutionUUT/Mram__n0212111:O)                                              | NONE(*)(ExecutionUUT/ConditionalJump)| 1     |
+ExecutionUUT/Mram__n0212(ExecutionUUT/Mram__n021212:O)                                                | NONE(*)(ExecutionUUT/result2_temp_0) | 8     |
+------------------------------------------------------------------------------------------------------+--------------------------------------+-------+
+(*) These 7 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.394ns (Maximum Frequency: 185.401MHz)
+   Minimum input arrival time before clock: 1.801ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'DebouncerUUT/outTemp'
+  Clock period: 3.342ns (frequency: 299.249MHz)
+  Total number of paths / destination ports: 56 / 28
+-------------------------------------------------------------------------
+Delay:               1.671ns (Levels of Logic = 0)
+  Source:            RegBankUUT/Mram_RegBank32 (RAM)
+  Destination:       RegBankUUT/Out1_7 (FF)
+  Source Clock:      DebouncerUUT/outTemp falling
+  Destination Clock: DebouncerUUT/outTemp rising
+
+  Data Path: RegBankUUT/Mram_RegBank32 to RegBankUUT/Out1_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM16X1D:WCLK->DPO    1   0.990   0.579  RegBankUUT/Mram_RegBank32 (RegBankUUT/Addr1[2]_read_port_1_OUT<7>)
+     FD:D                      0.102          RegBankUUT/Out1_7
+    ----------------------------------------
+    Total                      1.671ns (1.092ns logic, 0.579ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLKGenerator/pll_base_inst/CLKOUT0'
+  Clock period: 5.394ns (frequency: 185.401MHz)
+  Total number of paths / destination ports: 11052 / 315
+-------------------------------------------------------------------------
+Delay:               5.394ns (Levels of Logic = 10)
+  Source:            SevengSegUUT/loopNum_31_1 (FF)
+  Destination:       SevengSegUUT/loopNum_3 (FF)
+  Source Clock:      CLKGenerator/pll_base_inst/CLKOUT0 rising
+  Destination Clock: CLKGenerator/pll_base_inst/CLKOUT0 rising
+
+  Data Path: SevengSegUUT/loopNum_31_1 to SevengSegUUT/loopNum_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              18   0.447   1.050  SevengSegUUT/loopNum_31_1 (SevengSegUUT/loopNum_31_1)
+     LUT2:I1->O            1   0.205   0.000  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_lut<0>1 (SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<0> (SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<1> (SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<2> (SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<3> (SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<4> (SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<4>)
+     MUXCY:CI->O           3   0.213   1.015  SevengSegUUT/Mcompar_loopNum[31]_GND_51_o_LessThan_14_o_cy<5> (SevengSegUUT/loopNum[31]_GND_51_o_LessThan_14_o)
+     LUT6:I0->O            5   0.203   0.715  SevengSegUUT/_n010911 (SevengSegUUT/_n01091)
+     LUT6:I5->O            4   0.205   0.788  SevengSegUUT/_n01091 (SevengSegUUT/_n0109)
+     LUT4:I2->O            1   0.203   0.000  SevengSegUUT/loopNum_3_rstpot (SevengSegUUT/loopNum_3_rstpot)
+     FD:D                      0.102          SevengSegUUT/loopNum_3
+    ----------------------------------------
+    Total                      5.394ns (1.826ns logic, 3.568ns route)
+                                       (33.9% logic, 66.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLKGenerator/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.801ns (Levels of Logic = 1)
+  Source:            i_DIPData (PAD)
+  Destination:       Dip_Driver/Mshreg_o_data_reg_5 (FF)
+  Destination Clock: CLKGenerator/pll_base_inst/CLKOUT0 rising
+
+  Data Path: i_DIPData to Dip_Driver/Mshreg_o_data_reg_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  i_DIPData_IBUF (i_DIPData_IBUF)
+     SRLC16E:D                -0.060          Dip_Driver/Mshreg_o_data_reg_5
+    ----------------------------------------
+    Total                      1.801ns (1.222ns logic, 0.579ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLKGenerator/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            LED_Driver/o_data (FF)
+  Destination:       o_LEDData (PAD)
+  Source Clock:      CLKGenerator/pll_base_inst/CLKOUT0 rising
+
+  Data Path: LED_Driver/o_data to o_LEDData
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.447   0.579  LED_Driver/o_data (LED_Driver/o_data)
+     OBUF:I->O                 2.571          o_LEDData_OBUF (o_LEDData)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLKGenerator/pll_base_inst/CLKOUT0
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+CLKGenerator/pll_base_inst/CLKOUT0|    5.394|         |         |         |
+DebouncerUUT/outTemp              |    1.714|    9.865|         |         |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o|         |    2.152|         |         |
+ExecutionUUT/Mram__n0212          |         |    1.487|         |         |
+ExecutionUUT/Mram__n02122         |         |    1.880|         |         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DebouncerUUT/outTemp
+----------------------------------------------+---------+---------+---------+---------+
+                                              | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                  |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------------------+---------+---------+---------+---------+
+CLKGenerator/pll_base_inst/CLKOUT0            |         |         |    2.501|         |
+DebouncerUUT/outTemp                          |         |    1.671|    2.236|         |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o            |         |         |    1.546|         |
+DecoderUUT/IR[14]_IR[14]_MUX_247_o            |         |         |    1.789|         |
+ExecutionUUT/AluOperation[4]_GND_98_o_Mux_86_o|         |         |    1.179|         |
+ExecutionUUT/AluOperation[4]_GND_99_o_Mux_87_o|         |         |    1.179|         |
+ExecutionUUT/Mram__n02121                     |         |         |    2.527|         |
+ExecutionUUT/Mram__n02122                     |         |         |    1.515|         |
+IMUUT/douta<15>                               |    2.098|         |    1.888|         |
+----------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DecoderUUT/IR[14]_IR[14]_MUX_242_o
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+CLKGenerator/pll_base_inst/CLKOUT0|         |         |    5.275|         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DecoderUUT/IR[14]_IR[14]_MUX_247_o
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+CLKGenerator/pll_base_inst/CLKOUT0|         |         |    3.584|         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ExecutionUUT/AluOperation[4]_GND_98_o_Mux_86_o
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+DebouncerUUT/outTemp              |         |         |    3.537|         |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o|         |         |    5.428|         |
+ExecutionUUT/Mram__n02122         |         |         |    3.241|         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ExecutionUUT/AluOperation[4]_GND_99_o_Mux_87_o
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+DebouncerUUT/outTemp              |         |         |    4.015|         |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o|         |         |    4.938|         |
+ExecutionUUT/Mram__n02122         |         |         |    1.391|         |
+IMUUT/douta<15>                   |         |         |    5.299|         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ExecutionUUT/Mram__n0212
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+DebouncerUUT/outTemp|         |         |    1.198|         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ExecutionUUT/Mram__n02121
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+DebouncerUUT/outTemp              |         |         |    4.025|         |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o|         |         |    4.358|         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ExecutionUUT/Mram__n02122
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+CLKGenerator/pll_base_inst/CLKOUT0|         |         |    3.750|         |
+DebouncerUUT/outTemp              |         |         |    8.577|         |
+DecoderUUT/IR[14]_IR[14]_MUX_242_o|         |         |    8.760|         |
+IMUUT/douta<15>                   |         |         |    9.131|         |
+----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock IMUUT/douta<15>
+----------------------------------+---------+---------+---------+---------+
+                                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------------+---------+---------+---------+---------+
+CLKGenerator/pll_base_inst/CLKOUT0|    5.426|         |    4.236|         |
+----------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.92 secs
+ 
+--> 
+
+Total memory usage is 300224 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  255 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

@@ -1,0 +1,2 @@
+verilog isim_temp "LED_Driver.v"
+verilog isim_temp "E:/Applications/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,155 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Dec 27 14:26:59 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "i_Eth_INT" LOCATE = SITE "P21" LEVEL 1;
+COMP "o_LEDLatch" LOCATE = SITE "P15" LEVEL 1;
+COMP "o_SEGData" LOCATE = SITE "P7" LEVEL 1;
+COMP "o_SEGLatch" LOCATE = SITE "P8" LEVEL 1;
+COMP "o_PSCLK" LOCATE = SITE "P133" LEVEL 1;
+COMP "i_CLK" LOCATE = SITE "P14" LEVEL 1;
+COMP "i_MMC_DO" LOCATE = SITE "P143" LEVEL 1;
+COMP "io_Data<0>" LOCATE = SITE "P56" LEVEL 1;
+COMP "io_Data<1>" LOCATE = SITE "P57" LEVEL 1;
+COMP "io_Data<2>" LOCATE = SITE "P58" LEVEL 1;
+COMP "io_Data<3>" LOCATE = SITE "P59" LEVEL 1;
+COMP "io_Data<4>" LOCATE = SITE "P55" LEVEL 1;
+COMP "io_Data<5>" LOCATE = SITE "P51" LEVEL 1;
+COMP "io_Data<6>" LOCATE = SITE "P50" LEVEL 1;
+COMP "io_Data<7>" LOCATE = SITE "P48" LEVEL 1;
+COMP "i_RXD1" LOCATE = SITE "P9" LEVEL 1;
+COMP "i_RXD2" LOCATE = SITE "P11" LEVEL 1;
+COMP "i_DIPData" LOCATE = SITE "P134" LEVEL 1;
+COMP "io_USB_IFCLK" LOCATE = SITE "P29" LEVEL 1;
+COMP "i_SYS_RESET" LOCATE = SITE "P47" LEVEL 1;
+COMP "io_MuxEthUSB<0>" LOCATE = SITE "P43" LEVEL 1;
+COMP "io_MuxEthUSB<1>" LOCATE = SITE "P41" LEVEL 1;
+COMP "io_MuxEthUSB<2>" LOCATE = SITE "P44" LEVEL 1;
+COMP "io_MuxEthUSB<3>" LOCATE = SITE "P30" LEVEL 1;
+COMP "io_MuxEthUSB<4>" LOCATE = SITE "P45" LEVEL 1;
+COMP "io_MuxEthUSB<5>" LOCATE = SITE "P32" LEVEL 1;
+COMP "io_MuxEthUSB<6>" LOCATE = SITE "P33" LEVEL 1;
+COMP "io_MuxEthUSB<7>" LOCATE = SITE "P34" LEVEL 1;
+COMP "io_MuxEthUSB<8>" LOCATE = SITE "P35" LEVEL 1;
+COMP "io_MuxEthUSB<9>" LOCATE = SITE "P40" LEVEL 1;
+COMP "o_DIPLatch" LOCATE = SITE "P2" LEVEL 1;
+COMP "o_LEDData" LOCATE = SITE "P16" LEVEL 1;
+PIN CLKGenerator/clkout1_buf_pin<1> = BEL "CLKGenerator/clkout1_buf" PINNAME
+        O;
+PIN "CLKGenerator/clkout1_buf_pin<1>" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN
+        IMUUT/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram_pins<26>
+        = BEL
+        "IMUUT/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram"
+        PINNAME CLKAWRCLK;
+PIN
+        IMUUT/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram_pins<27>
+        = BEL
+        "IMUUT/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram"
+        PINNAME CLKBRDCLK;
+TIMEGRP CLKGenerator_clkout0 = BEL "DebouncerUUT2/countOne_1" BEL
+        "DebouncerUUT2/countOne_4" BEL "DebouncerUUT2/countOne_2" BEL
+        "DebouncerUUT2/countOne_3" BEL "DebouncerUUT2/countOne_5" BEL
+        "DebouncerUUT2/countOne_6" BEL "DebouncerUUT2/countOne_9" BEL
+        "DebouncerUUT2/countOne_7" BEL "DebouncerUUT2/countOne_8" BEL
+        "DebouncerUUT2/countOne_10" BEL "DebouncerUUT2/countOne_11" BEL
+        "DebouncerUUT2/countOne_12" BEL "DebouncerUUT2/countOne_13" BEL
+        "DebouncerUUT2/countOne_14" BEL "DebouncerUUT2/countOne_15" BEL
+        "DebouncerUUT2/countOne_18" BEL "DebouncerUUT2/countOne_16" BEL
+        "DebouncerUUT2/countOne_17" BEL "DebouncerUUT2/countOne_19" BEL
+        "DebouncerUUT2/countZero_1" BEL "DebouncerUUT2/countZero_4" BEL
+        "DebouncerUUT2/countZero_2" BEL "DebouncerUUT2/countZero_3" BEL
+        "DebouncerUUT2/countZero_5" BEL "DebouncerUUT2/countZero_6" BEL
+        "DebouncerUUT2/countZero_9" BEL "DebouncerUUT2/countZero_7" BEL
+        "DebouncerUUT2/countZero_8" BEL "DebouncerUUT2/countZero_10" BEL
+        "DebouncerUUT2/countZero_11" BEL "DebouncerUUT2/countZero_14" BEL
+        "DebouncerUUT2/countZero_12" BEL "DebouncerUUT2/countZero_13" BEL
+        "DebouncerUUT2/countZero_15" BEL "DebouncerUUT2/countZero_16" BEL
+        "DebouncerUUT2/countZero_17" BEL "DebouncerUUT2/countZero_18" BEL
+        "DebouncerUUT2/countZero_19" BEL "DebouncerUUT/countZero_1" BEL
+        "DebouncerUUT/countZero_2" BEL "DebouncerUUT/countZero_5" BEL
+        "DebouncerUUT/countZero_3" BEL "DebouncerUUT/countZero_4" BEL
+        "DebouncerUUT/countZero_6" BEL "DebouncerUUT/countZero_7" BEL
+        "DebouncerUUT/countZero_10" BEL "DebouncerUUT/countZero_8" BEL
+        "DebouncerUUT/countZero_9" BEL "DebouncerUUT/countZero_11" BEL
+        "DebouncerUUT/countZero_12" BEL "DebouncerUUT/countZero_15" BEL
+        "DebouncerUUT/countZero_13" BEL "DebouncerUUT/countZero_14" BEL
+        "DebouncerUUT/countZero_16" BEL "DebouncerUUT/countZero_17" BEL
+        "DebouncerUUT/countZero_20" BEL "DebouncerUUT/countZero_18" BEL
+        "DebouncerUUT/countOne_1" BEL "DebouncerUUT/countOne_2" BEL
+        "DebouncerUUT/countOne_3" BEL "DebouncerUUT/countOne_6" BEL
+        "DebouncerUUT/countOne_4" BEL "DebouncerUUT/countOne_5" BEL
+        "DebouncerUUT/countOne_7" BEL "DebouncerUUT/countOne_8" BEL
+        "DebouncerUUT/countOne_9" BEL "DebouncerUUT/countOne_10" BEL
+        "DebouncerUUT/countOne_11" BEL "DebouncerUUT/countOne_12" BEL
+        "DebouncerUUT/countOne_15" BEL "DebouncerUUT/countOne_13" BEL
+        "DebouncerUUT/countOne_14" BEL "DebouncerUUT/countOne_16" BEL
+        "DebouncerUUT/countOne_17" BEL "DebouncerUUT/countOne_20" BEL
+        "DebouncerUUT/countOne_18" BEL "DebouncerUUT2/countOne_0" BEL
+        "DebouncerUUT2/countZero_0" BEL "DebouncerUUT/countZero_0" BEL
+        "DebouncerUUT/countOne_0" BEL "CLKGenerator/clkout1_buf" BEL
+        "Dip_Driver/counter_31" BEL "Dip_Driver/counter_30" BEL
+        "Dip_Driver/counter_29" BEL "Dip_Driver/counter_28" BEL
+        "Dip_Driver/counter_27" BEL "Dip_Driver/counter_26" BEL
+        "Dip_Driver/counter_25" BEL "Dip_Driver/counter_24" BEL
+        "Dip_Driver/counter_23" BEL "Dip_Driver/counter_22" BEL
+        "Dip_Driver/counter_21" BEL "Dip_Driver/counter_20" BEL
+        "Dip_Driver/counter_19" BEL "Dip_Driver/counter_18" BEL
+        "Dip_Driver/counter_17" BEL "Dip_Driver/counter_16" BEL
+        "Dip_Driver/counter_15" BEL "Dip_Driver/counter_14" BEL
+        "Dip_Driver/counter_13" BEL "Dip_Driver/counter_12" BEL
+        "Dip_Driver/counter_11" BEL "Dip_Driver/counter_10" BEL
+        "Dip_Driver/counter_9" BEL "Dip_Driver/counter_8" BEL
+        "Dip_Driver/counter_7" BEL "Dip_Driver/counter_6" BEL
+        "Dip_Driver/counter_5" BEL "Dip_Driver/counter_4" BEL
+        "Dip_Driver/counter_3" BEL "Dip_Driver/counter_2" BEL
+        "Dip_Driver/counter_1" BEL "Dip_Driver/counter_0" BEL
+        "Dip_Driver/o_data_7" BEL "Dip_Driver/o_data_6" BEL
+        "Dip_Driver/o_data_5" BEL "Dip_Driver/o_data_4" BEL
+        "Dip_Driver/o_data_3" BEL "Dip_Driver/o_data_2" BEL
+        "Dip_Driver/o_data_1" BEL "Dip_Driver/o_data_0" BEL
+        "Dip_Driver/FiveButtons_7" BEL "Dip_Driver/FiveButtons_6" BEL
+        "Dip_Driver/o_data_reg_14" BEL "Dip_Driver/o_data_reg_13" BEL
+        "Dip_Driver/o_data_reg_12" BEL "Dip_Driver/o_data_reg_11" BEL
+        "Dip_Driver/o_data_reg_10" BEL "Dip_Driver/o_data_reg_9" BEL
+        "Dip_Driver/o_data_reg_8" BEL "Dip_Driver/o_data_reg_7" BEL
+        "Dip_Driver/o_data_reg_6" BEL "Dip_Driver/o_DipLatch" BEL
+        "LED_Driver/counter_31" BEL "LED_Driver/counter_3" BEL
+        "LED_Driver/counter_2" BEL "LED_Driver/counter_1" BEL
+        "LED_Driver/counter_0" BEL "LED_Driver/o_data" BEL
+        "LED_Driver/shiftReg_0" BEL "LED_Driver/shiftReg_1" BEL
+        "LED_Driver/shiftReg_2" BEL "LED_Driver/shiftReg_3" BEL
+        "LED_Driver/shiftReg_4" BEL "LED_Driver/shiftReg_5" BEL
+        "LED_Driver/shiftReg_6" BEL "LED_Driver/shiftReg_7" BEL
+        "LED_Driver/shiftReg_8" BEL "LED_Driver/shiftReg_9" BEL
+        "LED_Driver/shiftReg_10" BEL "LED_Driver/shiftReg_11" BEL
+        "LED_Driver/shiftReg_12" BEL "LED_Driver/shiftReg_13" BEL
+        "LED_Driver/shiftReg_14" BEL "LED_Driver/shiftReg_15" BEL
+        "LED_Driver/o_latch" BEL "SevengSegUUT/o_Data" BEL
+        "SevengSegUUT/o_Latch" BEL "DebouncerUUT2/outTemp" BEL
+        "DebouncerUUT/outTemp" BEL "SevengSegUUT/temp_latch" BEL
+        "SevengSegUUT/temp" BEL "SevengSegUUT/loopNum_31" BEL
+        "SevengSegUUT/loopNum_5" BEL "SevengSegUUT/loopNum_4" BEL
+        "SevengSegUUT/loopNum_3" BEL "SevengSegUUT/loopNum_2" BEL
+        "SevengSegUUT/loopNum_1" BEL "SevengSegUUT/loopNum_0" BEL
+        "SevengSegUUT/loopNum_31_1" BEL "SevengSegUUT/loopNum_31_2" BEL
+        "SevengSegUUT/loopNum_31_3" BEL "SevengSegUUT/loopNum_5_1" BEL
+        "SevengSegUUT/loopNum_4_1" BEL "SevengSegUUT/loopNum_4_2" BEL
+        "SevengSegUUT/loopNum_5_2" BEL "Dip_Driver/Mshreg_o_data_reg_5" BEL
+        "Dip_Driver/o_data_reg_5" PIN
+        "IMUUT/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram_pins<26>"
+        PIN
+        "IMUUT/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram_pins<27>"
+        BEL "o_PSCLK";
+PIN SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0_pins<0> = BEL
+        "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0" PINNAME DIVCLK;
+PIN CLKGenerator/pll_base_inst/PLL_ADV_pins<2> = BEL
+        "CLKGenerator/pll_base_inst/PLL_ADV" PINNAME CLKIN1;
+TIMEGRP i_CLK = PIN "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0_pins<0>" PIN
+        "CLKGenerator/pll_base_inst/PLL_ADV_pins<2>";
+TS_i_CLK = PERIOD TIMEGRP "i_CLK" 50 MHz HIGH 50%;
+TS_CLKGenerator_clkout0 = PERIOD TIMEGRP "CLKGenerator_clkout0" TS_i_CLK * 0.1
+        HIGH 50%;
+SCHEMATIC END;
+
