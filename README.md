@@ -14,7 +14,7 @@
  
  A list of instructions that this processor can do is available as: List of Instructions -- Version 1.01.
  
- ![Simplified Block Diagram](../Simplified--BlockDiagram)
+ ![Simplified Block Diagram](DharmaChakra/Simplifed--BlcokDiagram.png)
  
  
  
